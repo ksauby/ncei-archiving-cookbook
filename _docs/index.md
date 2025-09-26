@@ -27,7 +27,9 @@ Full resolution and low resolution real-time physical trajectory profile data fr
 
 ## Big Picture Perspective
 
-Per  NOAA Administrative Order 212-15 and the Data Management Plan Procedural Directive, each new data acquisition project needs a Data Management Plan that identifies what data will be collected, who and where data will be collected, and where and when data will be archived. NCEI can accept data at the immediate end of the data collection process, at the end of the qa/qc process, when a "final version" of data are released to the public, or when the data collecting office no longer wants or is able to keep data locally.
+The [NOAA Administrative Order 212-15B: Management of NOAA Data and Information](https://www.noaa.gov/organization/administration/nao-212-15-Management-of-NOAA-Data-and-Information) provides broad guidance and information about the management of NOAA data, including data preservation policies and procedures, to ensure that data are managed for the entire data life cycle.
+
+each new data acquisition project needs a Data Management Plan that identifies what data will be collected, who and where data will be collected, and where and when data will be archived (for specific guidance see Chapter 3 and for a template see Appendix C in the [Data Management Handbook](https://www.noaa.gov/media/file/noaa-data-management-handbook)). NCEI can accept data at the immediate end of the data collection process, at the end of the QA/QC process, when a "final version" of data are released to the public, or when the data collecting office no longer wants or is able to keep data locally.
 
 Some key points to keep in mind when managing data:
  - Many Program and Project Offices provide good examples and guidance for managing observation data and metadata for marine scientists. While each program, project, and organization may have specific requirements for documenting, organizing, archiving and providing access to data funded by them, some fundamentals are common across the data management spectrum:
@@ -45,7 +47,7 @@ Some key points to keep in mind when managing data:
 
 ## Selecting the Data to be Archived
 
-For the intentions of this procedure, we want to focus on region owned/managed observational data assets that are less than 10 TB per year in size. Use the following guidelines to determine which data sets should be included in the archive procedures:
+For the intentions of this procedure, we want to focus on region owned/managed observational data assets. Use the following guidelines to determine which data sets should be included in the archive procedures:
  - If the data is already being submitted to a Data Assembly Center (DAC) that has an archive agreement with NCEI, verify your data will be incorporated into that archival process.
  - If the data will not be archived through a DAC, proceed with the steps below.
 
@@ -75,7 +77,7 @@ In order to fully document the data that has been collected, NCEI provides the f
  
  <!-- prefer netCDF because of self-documentation feature - contains data and metadata all in the same file -->
  
- - Data should be in compliance with the [IOOS compliance checker](https://github.com/ioos/compliance-checker), specifically the [NCEI plugin for the IOOS compliance checker](https://github.com/ioos/cc-plugin-ncei).
+ - New data submissions to NCEI should be in compliance with the [IOOS compliance checker](https://github.com/ioos/compliance-checker), specifically the [NCEI plugin for the IOOS compliance checker](https://github.com/ioos/cc-plugin-ncei).
  - To see how compliant your files are, use the [Online IOOS Compliance Checker](https://data.ioos.us/compliance/index.html).
  
  <!-- why do this second compliance checker - how does it differ from the first? -->
@@ -87,30 +89,8 @@ In order to fully document the data that has been collected, NCEI provides the f
 
 ## Providing Data Integrity
 
-The mission of NCEI is to "acquire, process, preserve, and disseminate oceanographic data." Thus, the acquisition of data from data providers is an important part of the NCEI mission. In order to maintain the integrity and to guarantee availability of the data that NCEI acquires, as well as to ensure the security of both NCEI and remote computer systems, NCEI has a few recommendations for standard practice for data acquisition:
-
-<!-- make sure language below is in agreement with information here: https://www.ncei.noaa.gov/archive/atrac/guidelines.html -->
-
- - NCEI uses a 'manifest' to list the data files to be archived, and provide checksums of the files in the package to validate the transfer was successful.
- - The relative path to the data files should be described in the manifest. If the data files are in a directory structure below the manifest file, we need to know where the data files are in relation to the manifest. If no relative path to the data files is described, NCEI will assume that the data and manifest are in the same directory.
+NCEI relies on submission manifest files to ensure data integrity. For more information, see the "Submission Manifest Files" section on the [Archiving Guidelines](https://www.ncei.noaa.gov/archive/atrac/guidelines.html) web page.
  
- - There are two options when determining how you want to generate your manifest files:
-   1. Generate the manifest files on a per file basis.
-
-<!-- What about checksums for non-netCDF Files? -->
-   
-      - One text file for each netCDF file, which contains the checksum followed by a space and the netCDF file name. See the example at [NCEI Acquisition Standards](https://ioos.github.io/ncei-archiving-cookbook/practices.html).
-      - The naming convention for this file follows the same name as the netCDF file followed by `.sha`, indicating it is a checksum file.
-
-<!-- update this as necessary -->
-
-      - NCEI has been using this construct for the current archive automations with GLOS and SECOORA:
-           - For example, the manifest for the netCDF file [`enp.wiwf1.met_2015_06_01_18.nc`](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/enp.wiwf1.met_2015_06_01_18.nc?attredirects=0&d=1) would be [`enp.wiwf1.met_2015_06_01_18.nc.md5`](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/enp.wiwf1.met_2015_06_01_18.nc.md5?attredirects=0&d=1) (using an md5 cryptographic hash value).
-           - NCEI's current best practice is to use the SHA-2 family of crytographic hash functions (sha256 or sha384). But, other hash functions can be used as applicable.
-   2. Generate one manifest file with all filenames and checksums for the package to be archived.
-       - This can be a space delimited file with the filenames, including path to the files, and checksums.
-       - This can be an xml formatted file with the filenames, including path to the files, and checksums. For an xml formatted example see [this file](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/SubmissionManifest_simple.xml?attredirects=0&d=1).
-  - Review [standard practices to guarantee data integrity](https://ioos.github.io/ncei-archiving-cookbook/practices.html) for more information on manifest files and integrity checks.
 
 ---------------------------------------------------------------------------------------------------------------------
 
