@@ -132,20 +132,14 @@ NCEI has provided their recommendation of what information to include in the cer
 NCEI's [Data Submissions Format Guidance](https://www.ncei.noaa.gov/archive#v-pills-preferred) and [Archiving Guidelines](https://www.ncei.noaa.gov/archive/atrac/guidelines.html) web pages provides advice on file naming.
 For example, the following pattern used to construct file names would be acceptable:
 
-<organization><platform><start date>-<end date>.nc, where
+\<organization\>\<platform\>\<start date\>-\<end date\>.nc, where
 
--   <organization> is an abbreviation or code for the organization that collected the data (no spaces and no special characters included),
-
--   <platform> is an abbreviation or code for the platform which collected the data (no spaces and no special characters included), and
-
--   <start date> and <end date> are the first and last dates, respectively, that data was collected, and are formatted "YYYMMDD," where
-
+-   \<organization\> is an abbreviation or code for the organization that collected the data (no spaces and no special characters included),
+-   \<platform\> is an abbreviation or code for the platform which collected the data (no spaces and no special characters included), and
+-   \<start date\> and \<end date\> are the first and last dates, respectively, that data was collected, and are formatted "YYYMMDD," where
     -   YYYY is the four-digit year,
-
     -   MM is the two-digit month, and
-
     -   DD is the two-digit day, and
-
 -   .nc is the file extension indicating the type of file (in this example, the file format is NetCDF).
 
 #### Who do we list as the creator_name in the netCDF file?

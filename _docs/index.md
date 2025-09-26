@@ -12,7 +12,7 @@ editor_options:
 ## Current archive collections at NCEI
 
 | **Dataset Name** | **Metadata (Link)** | **DOI** |
-|----|----|----|
+|-----------------------|---------------------------|----------------------|
 | Physical and meteorological data collected from non-federal stations assembled by the Alaska Ocean Observing System (AOOS) | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-AOOS> | [10.25921/qm3x-rn54](https://doi.org/10.25921/qm3x-rn54) |
 | Physical and meteorological data collected from non-federal stations assembled by the Caribbean Coastal Ocean Observing System (CARICOOS) | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CARICOOS> | [10.25921/pkjj-nz06](https://doi.org/10.25921/pkjj-nz06) |
 | Physical and meteorological data collected from non-federal stations assembled by the Central and Northern California Coastal Ocean Observing System (CeNCOOS) | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CeNCOOS> | [10.25921/p225-d669](https://doi.org/10.25921/p225-d669) |
@@ -115,26 +115,29 @@ for accurate interpretation and reuse of the data, such as calibration
 information or temperature and pH scale for sensor measurements, should
 be noted in the data files themselves or in associated documentation
 files. <!-- verify --> In order to fully document the data that has been
-collected, NCEI provides the following recommendations:
+collected:
 
 -   Use a consistent and unique file naming convention for each file and
     explain the file naming convention in the metadata. See the
     [Cookbook FAQ on recommended file naming
     conventions](https://ioos.github.io/ncei-archiving-cookbook/faq.html)
     for more details.
--   NCEI highly recommends formatting your data following the [NCEI
-    NetCDF Templates
-    v2.0](https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html).
+-   Format your data following the [NCEI NetCDF Templates
+    v2.0](https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html),
+    and
+-   Comply with the requirements outlined in the [IOOS Metadata
+    Profile](https://ioos.github.io/ioos-metadata/index.html).
 
 <!-- prefer netCDF because of self-documentation feature - contains data and metadata all in the same file -->
 
--   New data submissions to NCEI should be in compliance with the IOOS
-    compliance checker, specifically the [NCEI plugin for the IOOS
-    compliance checker](https://github.com/ioos/cc-plugin-ncei). The
-    compliance checker is available both as a [python
-    module](https://github.com/ioos/compliance-checker) that can be used
-    at the command line as well as an [online
-    application](https://data.ioos.us/compliance/index.html).
+Check compliance with the [IOOS Metadata
+Profile](https://ioos.github.io/ioos-metadata/index.html) and the [NCEI
+NetCDF
+template](https://www.ncei.noaa.gov/data/oceans/ncei/formats/netcdf/v2.0/index.html)
+by using the IOOS compliance checker, which is available both as a
+[python module](https://github.com/ioos/compliance-checker) that can be
+used at the command line as well as an [online
+application](https://data.ioos.us/compliance/index.html).
 
 ------------------------------------------------------------------------
 
@@ -292,13 +295,18 @@ to the data. While developing the location where the files will be
 posted for transfer to the NCEI archive, we recommend the following best
 practices: - Post your consistently formatted data files and directory
 structure to a location (FTP, HTTP, DAP, THREDDS, etc) where NCEI can
-pull the data from. - Allow ample time for NCEI to develop the ingest
-and archival procedures. - Verify that the location where the files are
-posted will not vary throughout the archival process. - Anonymous FTP
-sites are okay for NCEI to pull data from, we just need the appropriate
-information to gain access. - Provide access to the files for
-approximately one month after the data has been ingested and archived at
-NCEI.
+pull the data from.
+
+Allow ample time for NCEI to develop the ingest and archival procedures.
+
+Verify that the location where the files are posted will not vary
+throughout the archival process.
+
+Anonymous FTP sites are okay for NCEI to pull data from, we just need
+the appropriate information to gain access.
+
+Provide access to the files for approximately one month after the data
+has been ingested and archived at NCEI.
 
 ------------------------------------------------------------------------
 
