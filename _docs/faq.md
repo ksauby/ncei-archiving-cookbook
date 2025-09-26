@@ -72,37 +72,56 @@ See the example below:
 
 In order to be certified, a RICE must provide a Standard Operating Procedure (to be no more than 2 pages) that identifies (in general terms) their process for archiving data, identifies aggregated data sets to be archived, provides a timeline for completion of the necessary agreement with NCEI or other appropriate national data archive center.
 An approved agreement with NCEI must be in red prior to being approved as a certified RICE.
-The approved agreement with NCEI will be in one of the following formats (**B** and **C** can be obtained from the ATRAC system):
+The approved agreement with NCEI will be in one of the following formats (**2** and **3** can be obtained from the ATRAC system):
 
-   **A:** Submission Information Form (deprecated);<br>    **B:** Request to Archive; or<br>    **C:** Data Submission Agreement.
+1.  Submission Information Form (deprecated);
+
+2.  Request to Archive; or
+
+3.  Data Submission Agreement.
 
 Below are examples of the various archive states the archival of RICE data could be in.
 NCEI has provided their recommendation of what information to include in the certification, in some cases, specific text to include.
-1.
-**If the region does not have an agreement with NCEI.** \* Include the following information: 1.
-List of parameters/observations being collected.
-2.
-Processing steps/quality control including final format.
-3.
-Timing of data submissions and approximate sizes.
-4.
-Development of data documentation (metadata).
-5.
-Data disposition (path to archive center).
-6.
-Data affiliations, including both institutions and individual persons whose names will be associated with the data set in some way, e.g., where did it come from, where does it go, etc. 2.
-**If the region is under negotiations with NCEI to archive the data.** \* Include the information requested above and the current Request to Archive documentation from the ATRAC system.
-\* Provide an estimated date as to when the RICE expects to be archiving their data.
-3.
-**If the region has an approved Request to Archive, but NCEI has not implemented the archive procedure yet.** \* Include the approved Request to Archive.
-\* Add the following text to the certification (replacing *RICE* with your region name): *RICE **has completed the required documentation for the** (description of data files) **data files in the NCEI ATRAC system. The Request to Archive (attached here) has been approved and NCEI is developing the archival process. We expect the automated archival of** RICE (description of data files) **to be operational by the end of** (give a date when we can expect the data to be archived, for example the calendar year (January 2017))*.
-4.
-**If the region has an already existing agreement with NCEI and will be making adjustments to that process after the certification is submitted.** \* Include the current agreement to the certification documentation.
-\* Include a statement that details how the current framework is being renegotiated with NCEI and the documentation will be updated to reflect any changes.
-5.
-**If the region has established an agreement with NCEI and are actively archiving data.** \* Include the approved Request to Archive document exported from the ATRAC system.
-\* Include the Submission Agreement document exported from the ATRAC system.
-\* Add the following text to the certification (replacing *RICE* with your region name): *RICE **already archives** (description of data) **through NCEI and this process is documented in the accompanying Request to Archive and Submission Agreement Form updated** (date of last update to submission agreement form)*.
+
+1.  **If the region does not have an agreement with NCEI** include the following information:
+
+    a.  List of parameters/observations being collected.
+
+    b.  Processing steps/quality control including final format.
+
+    c.  Timing of data submissions and approximate sizes.
+
+    d.  Development of data documentation (metadata).
+
+    e.  Data disposition (path to archive center).
+
+    f.  Data affiliations, including both institutions and individual persons whose names will be associated with the data set in some way, e.g., where did it come from, where does it go, etc.
+
+2.  **If the region is under negotiations with NCEI to archive the data.**
+
+    a.  Include the information requested above and the current Request to Archive documentation from the ATRAC system.
+
+    b.  Provide an estimated date as to when the RICE expects to be archiving their data.
+
+3.  **If the region has an approved Request to Archive, but NCEI has not implemented the archive procedure yet.**
+
+    1.  Include the approved Request to Archive.
+
+    2.  Add the following text to the certification (replacing *RICE* with your region name): *RICE **has completed the required documentation for the** (description of data files) **data files in the NCEI ATRAC system. The Request to Archive (attached here) has been approved and NCEI is developing the archival process. We expect the automated archival of** RICE (description of data files) **to be operational by the end of** (give a date when we can expect the data to be archived, for example the calendar year (January 2017))*.
+
+4.  **If the region has an already existing agreement with NCEI and will be making adjustments to that process after the certification is submitted.**
+
+    a.  Include the current agreement to the certification documentation.
+
+    b.  Include a statement that details how the current framework is being renegotiated with NCEI and the documentation will be updated to reflect any changes.
+
+5.  **If the region has established an agreement with NCEI and are actively archiving data.**
+
+    a.  Include the approved Request to Archive document exported from the ATRAC system.
+
+    b.  Include the Submission Agreement document exported from the ATRAC system.
+
+    c.  Add the following text to the certification (replacing *RICE* with your region name): *RICE **already archives** (description of data) **through NCEI and this process is documented in the accompanying Request to Archive and Submission Agreement Form updated** (date of last update to submission agreement form)*.
 
 ------------------------------------------------------------------------
 
@@ -110,7 +129,7 @@ Data affiliations, including both institutions and individual persons whose name
 
 #### What do you recommend for file naming conventions?
 
-NCEI's[Data Submissions Format Guidance](https://www.ncei.noaa.gov/archive#v-pills-preferred) and [Archiving Guidelines](https://www.ncei.noaa.gov/archive/atrac/guidelines.html) web pages provides advice on file naming.
+NCEI's [Data Submissions Format Guidance](https://www.ncei.noaa.gov/archive#v-pills-preferred) and [Archiving Guidelines](https://www.ncei.noaa.gov/archive/atrac/guidelines.html) web pages provides advice on file naming.
 For example, the following pattern used to construct file names would be acceptable:
 
 <organization><platform><start date>-<end date>.nc, where

@@ -12,7 +12,7 @@ editor_options:
 ## Current archive collections at NCEI
 
 | **Dataset Name** | **Metadata (Link)** | **DOI** |
-|-----------------------|---------------------------|----------------------|
+|----|----|----|
 | Physical and meteorological data collected from non-federal stations assembled by the Alaska Ocean Observing System (AOOS) | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-AOOS> | [10.25921/qm3x-rn54](https://doi.org/10.25921/qm3x-rn54) |
 | Physical and meteorological data collected from non-federal stations assembled by the Caribbean Coastal Ocean Observing System (CARICOOS) | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CARICOOS> | [10.25921/pkjj-nz06](https://doi.org/10.25921/pkjj-nz06) |
 | Physical and meteorological data collected from non-federal stations assembled by the Central and Northern California Coastal Ocean Observing System (CeNCOOS) | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:IOOS-CeNCOOS> | [10.25921/p225-d669](https://doi.org/10.25921/p225-d669) |
@@ -50,20 +50,31 @@ observation data and metadata for marine scientists. While each program,
 project, and organization may have specific requirements for
 documenting, organizing, archiving and providing access to data funded
 by them, some fundamentals are common across the data management
-spectrum: - Plan for managing and documenting data collected at the
-beginning of the project, not the end - Designate a person to be
-responsible for managing data and information for the project - Need
-assistance with developing a Data Management Plan? Take a look at some
-of the resources below for good recommendations. - [IODE Guidelines for
-a Data Management
-Plan](http://www.iode.org/index.php?option=com_oe&task=viewDocumentRecord&docID=16859) -
-[NSF data management planning tool from
-DataONE](https://www.dataone.org/data-management-planning) - [Training
-resources](https://dmptool.org/community_resources) - [The UK Digital
-Curation
-Centre](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan) -
-[NOAA Data Sharing Policy](https://nosc.noaa.gov/EDMC/PD.DSP.php) - To
-get an idea as to how NCEI ingests and archives data in an automated
+spectrum:
+
+Plan for managing and documenting data collected at the beginning of the
+project, not the end
+
+Designate a person to be responsible for managing data and information
+for the project
+
+Need assistance with developing a Data Management Plan? Take a look at
+some of the resources below for good recommendations.
+
+-   [IODE Guidelines for a Data Management
+    Plan](http://www.iode.org/index.php?option=com_oe&task=viewDocumentRecord&docID=16859)
+
+-   [NSF data management planning tool from
+    DataONE](https://www.dataone.org/data-management-planning)
+
+-   [Training resources](https://dmptool.org/community_resources)
+
+-   [The UK Digital Curation
+    Centre](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan)
+
+-   [NOAA Data Sharing Policy](https://nosc.noaa.gov/EDMC/PD.DSP.php)
+
+To get an idea as to how NCEI ingests and archives data in an automated
 way, see [Example Archive
 Procedures](https://ioos.github.io/ncei-archiving-cookbook/procedures.html)
 for examples.
@@ -250,10 +261,10 @@ beneficial to have available when populating the appropriate system.
 The Advanced Tracking and Resource tool for Archive Collections
 ([ATRAC](https://www.ncdc.noaa.gov/atrac/index.html)) and the
 [Send2NCEI](https://www.nodc.noaa.gov/s2n/) web tool facilitate the
-collection of metadata related to the packages you have
-developed according to the procedures above. Once you have collected the
-pertinent information listed below, it is recommended to have that
-information available when populating the appropriate system:
+collection of metadata related to the packages you have developed
+according to the procedures above. Once you have collected the pertinent
+information listed below, it is recommended to have that information
+available when populating the appropriate system:
 
 -   An idea of the size of the data files (both individually and as a
     collection).
@@ -279,14 +290,15 @@ For NCEI to be able to develop the appropriate metadata and archive the
 data, the provider should provide a location where NCEI can gain access
 to the data. While developing the location where the files will be
 posted for transfer to the NCEI archive, we recommend the following best
-practices: 
-- Post your consistently formatted data files and directory
+practices: - Post your consistently formatted data files and directory
 structure to a location (FTP, HTTP, DAP, THREDDS, etc) where NCEI can
-pull the data from.
-- Allow ample time for NCEI to develop the ingest and archival procedures.
-- Verify that the location where the files are posted will not vary throughout the archival process.
-- Anonymous FTP sites are okay for NCEI to pull data from, we just need the appropriate information to gain access.
-- Provide access to the files for approximately one month after the data has been ingested and archived at NCEI.
+pull the data from. - Allow ample time for NCEI to develop the ingest
+and archival procedures. - Verify that the location where the files are
+posted will not vary throughout the archival process. - Anonymous FTP
+sites are okay for NCEI to pull data from, we just need the appropriate
+information to gain access. - Provide access to the files for
+approximately one month after the data has been ingested and archived at
+NCEI.
 
 ------------------------------------------------------------------------
 
