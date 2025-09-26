@@ -44,40 +44,37 @@ guidance see Chapter 3 and for a template see Appendix C in the [Data
 Management
 Handbook](https://www.noaa.gov/media/file/noaa-data-management-handbook)).
 
-Some key points to keep in mind when managing data: - Many Program and
-Project Offices provide good examples and guidance for managing
-observation data and metadata for marine scientists. While each program,
-project, and organization may have specific requirements for
-documenting, organizing, archiving and providing access to data funded
-by them, some fundamentals are common across the data management
-spectrum:
+Some key points to keep in mind when managing data:
 
-Plan for managing and documenting data collected at the beginning of the
-project, not the end
+-   Many Program and Project Offices provide good examples and guidance
+    for managing observation data and metadata for marine scientists.
+    While each program, project, and organization may have specific
+    requirements for documenting, organizing, archiving and providing
+    access to data funded by them, some fundamentals are common across
+    the data management spectrum:
 
-Designate a person to be responsible for managing data and information
-for the project
+-   Plan for managing and documenting data collected at the beginning of
+    the project, not the end
 
-Need assistance with developing a Data Management Plan? Take a look at
-some of the resources below for good recommendations.
+-   Designate a person to be responsible for managing data and
+    information for the project
 
--   [IODE Guidelines for a Data Management
-    Plan](http://www.iode.org/index.php?option=com_oe&task=viewDocumentRecord&docID=16859)
+-   Need assistance with developing a Data Management Plan? Take a look
+    at some of the resources below for good recommendations.
 
--   [NSF data management planning tool from
-    DataONE](https://www.dataone.org/data-management-planning)
+    -   [IODE Guidelines for a Data Management
+        Plan](http://www.iode.org/index.php?option=com_oe&task=viewDocumentRecord&docID=16859)
 
--   [Training resources](https://dmptool.org/community_resources)
+    -   [NSF data management planning tool from
+        DataONE](https://www.dataone.org/data-management-planning)
 
--   [The UK Digital Curation
-    Centre](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan)
+    -   [Training resources](https://dmptool.org/community_resources)
 
--   [NOAA Data Sharing Policy](https://nosc.noaa.gov/EDMC/PD.DSP.php)
+    -   [The UK Digital Curation
+        Centre](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan)
 
-To get an idea as to how NCEI ingests and archives data in an automated
-way, see [Example Archive
-Procedures](https://ioos.github.io/ncei-archiving-cookbook/procedures.html)
-for examples.
+    -   [NOAA Data Sharing
+        Policy](https://nosc.noaa.gov/EDMC/PD.DSP.php)
 
 ------------------------------------------------------------------------
 
@@ -85,11 +82,14 @@ for examples.
 
 For the intentions of this procedure, we want to focus on region
 owned/managed observational data assets. Use the following guidelines to
-determine which data sets should be included in the archive
-procedures: - If the data is already being submitted to a Data Assembly
-Center (DAC) that has an archive agreement with NCEI, verify your data
-will be incorporated into that archival process. - If the data will not
-be archived through a DAC, proceed with the steps below.
+determine which data sets should be included in the archive procedures:
+
+-   If the data is already being submitted to a Data Assembly Center
+    (DAC) that has an archive agreement with NCEI, verify your data will
+    be incorporated into that archival process.
+
+-   If the data will not be archived through a DAC, proceed with the
+    steps below.
 
 Below is a diagram of the pathway for the various types of IOOS RA data
 to get to the NCEI archive:
@@ -98,8 +98,7 @@ to get to the NCEI archive:
 
 <a href="./DataArchiveDecisionTreeForGoogle-large.png"><img src="./DataArchiveDecisionTreeForGoogle-small.png" alt="thumb" height="20%"/></a>
 
-(click for full-size image) {: style="color:blue; font-size: 80%;
-text-align: center;"}
+(click for full-size image)
 
 ------------------------------------------------------------------------
 
@@ -156,11 +155,8 @@ page.
 Well-organized data promotes the use and re-use of the interested data
 set throughout the community. Organizing your data into logical
 structures that the data lend themselves to be housed in is highly
-recommended (don't put a square peg in a round hole). Since you, the
-data provider, have the best handle on how stakeholders and users alike
-prefer to have the data organized, we default to your recommendations.
+recommended.
 
-NCEI has seen a variety of ways for data managers to format their data.
 Below are some points to assist in your data management:
 
 -   Organize your data in a way that would make the most sense to a
@@ -217,18 +213,19 @@ appropriate for the data that is intended to be archived.
 
 [Send2NCEI](https://www.nodc.noaa.gov/s2n/):
 
-:   \^ \* A Principal Investigator (PI) who has collected data from
-    multiple CTD casts in the North Pacific. \* An aggregation of data
-    collected from one platform over a year. \* Hard copies of
-    historical data found stowed away.
+-   A Principal Investigator (PI) who has collected data from multiple
+    CTD casts in the North Pacific.
+-   An aggregation of data collected from one platform over a year.
+-   Hard copies of historical data found stowed away.
 
 [ATRAC](https://www.ncdc.noaa.gov/atrac/index.html):
 
-:   \^ \* Buoy collecting continuous data which can be exported on an
-    episodic/periodic occurrence. \* An automated system that aggregates
-    and exports data on an episodic/periodic basis. \* A Data Assembly
-    Center (DAC) which can aggregate data and submit on an
+-   Buoy collecting continuous data which can be exported on an
+    episodic/periodic occurrence.
+-   An automated system that aggregates and exports data on an
     episodic/periodic basis.
+-   A Data Assembly Center (DAC) which can aggregate data and submit on
+    an episodic/periodic basis.
 
 ------------------------------------------------------------------------
 
@@ -293,20 +290,19 @@ For NCEI to be able to develop the appropriate metadata and archive the
 data, the provider should provide a location where NCEI can gain access
 to the data. While developing the location where the files will be
 posted for transfer to the NCEI archive, we recommend the following best
-practices: - Post your consistently formatted data files and directory
-structure to a location (FTP, HTTP, DAP, THREDDS, etc) where NCEI can
-pull the data from.
+practices:
 
-Allow ample time for NCEI to develop the ingest and archival procedures.
-
-Verify that the location where the files are posted will not vary
-throughout the archival process.
-
-Anonymous FTP sites are okay for NCEI to pull data from, we just need
-the appropriate information to gain access.
-
-Provide access to the files for approximately one month after the data
-has been ingested and archived at NCEI.
+-   Post your consistently formatted data files and directory structure
+    to a location (FTP, HTTP, DAP, THREDDS, etc) where NCEI can pull the
+    data from.
+-   Allow ample time for NCEI to develop the ingest and archival
+    procedures.
+-   Verify that the location where the files are posted will not vary
+    throughout the archival process.
+-   Anonymous FTP sites are okay for NCEI to pull data from, we just
+    need the appropriate information to gain access.
+-   Provide access to the files for approximately one month after the
+    data has been ingested and archived at NCEI.
 
 ------------------------------------------------------------------------
 
