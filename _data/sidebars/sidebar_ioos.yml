@@ -33,15 +33,15 @@ entries:
       url: /index.html#selecting-the-data-to-be-archived
       output: web
 
-    - title: "Formatting Your Data"
+    - title: "Formatting"
       url: /index.html#formatting-your-data
       output: web
 
-    - title: "Providing Data Integrity"
+    - title: "Data Integrity"
       url: /index.html#providing-data-integrity
       output: web
 
-    - title: "Organizing Your Data"
+    - title: "Organization"
       url: /index.html#organizing-your-data
       output: web
 
@@ -49,7 +49,7 @@ entries:
       url: /index.html#determine-the-web-tool-for-documenting-and-submitting-your-data
       output: web
 
-    - title: "Documenting Your Data"
+    - title: "Documentation"
       url: /index.html#documenting-your-data
       output: web
 
